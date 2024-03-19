@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Fundo preto */
+  }
+  
+  .container {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .botao {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #botao1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #botao2 {
+    top: 10%;
+    left: 10%;
+  }
+  
+  #botao3 {
+    top: 10%;
+    right: 10%;
+  }
+  
+  #botao4 {
+    bottom: 10%;
+    left: 10%;
+  }
+  
+  #botao5 {
+    bottom: 10%;
+    right: 10%;
+  }
+  
+  #botao6 {
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #mensagem {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+  }
+  h1 {
+    color: aliceblue;
+  }
